@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+compileTestJava {
+    options.compilerArgs += '-parameters'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+dependencies {
+    testImplementation('org.junit.jupiter:junit-jupiter:5.4.2')
+}

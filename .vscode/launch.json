@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MySolid - (Launch)",
+            "request": "launch",
+            "mainClass": "mysolid.Main",
+            "projectName": "exp1"
+        },
+        {
+            "type": "java",
+            "name": "MyArray - (Launch)",
+            "request": "launch",
+            "mainClass": "myarray.Main",
+            "projectName": "exp1"
+        },
+        {
+            "type": "java",
+            "name": "CompileJava (Launch)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "preLaunchTask": "compileJava",
+            "mainClass": "mysolid.Main",
+            "args": "",
+        }
+    ]
+}

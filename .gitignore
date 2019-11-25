@@ -1,0 +1,21 @@
+## Vim
+[._]*.s[a-v][a-z]
+!*.svg
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+[._]*.un~
+
+## VS Code
+.settings/*
+.classpath
+.project
+
+## Gradle
+.gradle/*
+
+## Project
+bin/*
+requirements/*
+
